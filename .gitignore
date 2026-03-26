@@ -1,0 +1,17 @@
+# Java compiled files
+*.class
+
+# Tomcat folders
+WEB-INF/classes/
+work/
+temp/
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
