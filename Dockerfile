@@ -1,7 +1,5 @@
 FROM tomcat:9.0
 
-COPY . /usr/local/tomcat/webapps/TicTacToe
+COPY . /usr/local/tomcat/webapps/smartkisan/
 
 EXPOSE 8080
-
-CMD ["catalina.sh", "run"]
