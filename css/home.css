@@ -1,0 +1,58 @@
+.page-center {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.hero-card {
+  width: 440px;
+  max-width: 92%;
+  background: rgba(10, 31, 36, 0.92);
+  border-radius: 18px;
+  padding: 40px 32px 42px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+  text-align: center;
+  backdrop-filter: blur(8px);
+}
+
+.title {
+  margin: 6px 0 10px;
+  font-size: 28px;
+  letter-spacing: .4px;
+}
+
+.subtitle {
+  opacity: .9;
+  margin: 10px 0 22px;
+  font-size: 14px;
+}
+
+.btn {
+  width: 100%;
+  padding: 13px 14px;
+  border: none;
+  border-radius: 12px;
+  color: #06322a;
+  font-weight: 800;
+  letter-spacing: .3px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+}
+
+.btn-secondary {
+  background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+}
+
+.btn:hover {
+  filter: brightness(1.06);
+}
+
+.footer {
+  margin-top: 16px;
+  opacity: .75;
+  font-size: 12px;
+}

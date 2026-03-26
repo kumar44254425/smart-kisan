@@ -1,0 +1,105 @@
+.page-center {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+}
+
+.hero-card {
+  width: 420px;
+  max-width: 100%;
+  background: rgba(10, 31, 36, 0.94);
+  border-radius: 18px;
+  padding: 34px 28px 30px;
+  box-shadow: 0 18px 40px rgba(0,0,0,.45);
+  backdrop-filter: blur(8px);
+  color: #e9f5f2;
+}
+
+.hero-card h2 {
+  text-align: center;
+  margin: 6px 0 16px;
+  font-size: 22px;
+  letter-spacing: .3px;
+}
+
+.hero-card form {
+  display: grid;
+  gap: 12px;
+}
+
+.hero-card input {
+  width: 100%;
+  padding: 12px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.15);
+  background: rgba(255,255,255,.06);
+  color: #e9f5f2;
+  outline: none;
+}
+
+.hero-card input::placeholder {
+  color: rgba(233,245,242,.65);
+}
+
+.hero-card input:focus {
+  border-color: #2ecc71;
+  box-shadow: 0 0 0 2px rgba(46,204,113,.15);
+}
+
+.btn {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 800;
+  cursor: pointer;
+  letter-spacing: .3px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+  color: #06322a;
+}
+
+.btn-secondary {
+  background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+  color: #06243a;
+}
+
+.btn:hover {
+  filter: brightness(1.06);
+}
+
+.or {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 700;
+  opacity: .75;
+}
+
+.link {
+  text-align: center;
+  margin-top: 12px;
+  opacity: .85;
+}
+
+.link a {
+  color: #9fe7c5;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  background: rgba(231, 76, 60, .15);
+  border: 1px solid rgba(231, 76, 60, .35);
+  color: #ffd6d1;
+  padding: 10px 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
